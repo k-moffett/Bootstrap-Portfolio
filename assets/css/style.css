@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/backgroundcolor.png)
+    background-image: url(../images/backgroundcolor.png);
 }
 
 .container {
@@ -7,24 +7,47 @@ body {
     margin-bottom: 5%;
 }
 
+.footer, .header {
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+}
+
+h1 {
+    background-color: whitesmoke;
+}
 
 
 
 
 
 @media screen and (max-width: 640px) {
-    h1 {
+    .container, h1 {
         text-align: center;
     }
-    .navbar-nav {
+    h4 {
+        text-align: left;
+    }
+    .navbar-nav, .nav-link, .bg-primary  {
         flex-direction: row;
         text-align: center;
         width: 100%;
+        margin: auto;
     }
-   .navbar-nav .nav-link {
-       margin: auto;
-   }
+    .navbar-nav, .bg-primary{
+        position: relative;
+        bottom: 10px;
+    }
 
+    .nav-link {
+        position: relative;
+        top: 10px;
+       
+   p {
+       text-align: left;
+   }
    
     
 }
