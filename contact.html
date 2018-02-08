@@ -23,18 +23,21 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-1">
-            </div>
-
-            <div class="col-md-5">
-                <h4>About Me</h4>
-                <hr>
-                <img class="portpic" class="img-thumbnail" src="assets/images/portfolio_pic.jpg" class="img-fluid" alt="Responsive image">
-                <p class="card-text">Hello, my name is Kurtis Moffett. I was born in San Diego and lived here until I was eleven, then I lived in upstate New York for 12 years. I went to college in upstate New York for Music Industry. At the time I was working for a catering company, a performing arts center, and for a furniture moving company. Additionally, I was playing gigs with my band whenever possible. I moved back to San Diego in 2014, and started working as a guitar assembler for Taylor Guitars on the nightshift in the final assembly department. I then obtained a job with CBS Radio under one of the digital media companies, Eventful Inc. I am currently looking to progress my career in the exciting field web development!                   
-                </p>
-            </div>
-
-            <div class="col-md-1">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="@email.com">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="6"></textarea>
+                    </div>
             </div>
         </div>
     </div>
