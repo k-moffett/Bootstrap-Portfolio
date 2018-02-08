@@ -18,8 +18,13 @@ body {
     }
     .navbar-nav {
         flex-direction: row;
+        text-align: center;
+        width: 100%;
     }
-    .nav-item {
-        margin: auto;
-    }
+   .navbar-nav .nav-link {
+       margin: auto;
+   }
+
+   
+    
 }
