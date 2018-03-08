@@ -82,7 +82,7 @@ h1 {
    
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 979px) {
     h1 {
         width:35%;
         position: relative;
@@ -97,5 +97,29 @@ h1 {
     .nav-link {
         position: relative;
         text-align:center;
+    }
+    .portp{
+        width: 70%;
+    }
+    .portimg {
+        height: 70%;
+        width: 70%
+    }
+    .portdiv {
+        text-align: center;
+    }
+ 
+}
+
+@media screen and (min-width: 980px) {
+    .portp{
+        width: 70%;
+    }
+    .portimg {
+        height: 70%;
+        width: 70%
+    }
+    .portdiv {
+        text-align: center;
     }
 }
