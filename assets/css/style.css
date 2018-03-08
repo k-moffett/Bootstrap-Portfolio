@@ -31,6 +31,9 @@ h1 {
     position: relative;
     bottom: 7px;
 }
+.portpic {
+    width: 70%;
+}
 .portimg {
     height: 70%;
     width: 70%;
@@ -51,7 +54,7 @@ h1 {
 
 
 
-@media screen and (min-width: 100px) {
+@media screen and (min-width: 100px) and (max-width: 766px) {
     .container, h1 {
         text-align: center;
     }
@@ -76,14 +79,14 @@ h1 {
    p {
        text-align: left;
    }
+   
 }
 
 @media screen and (min-width: 768px) {
     h1 {
         width:35%;
         position: relative;
-        left: 3%;
-        
+        left: 3%;  
     }
     .navbar-nav, .nav-link, .bg-primary  {
         flex-direction: row;
@@ -93,6 +96,6 @@ h1 {
     }
     .nav-link {
         position: relative;
-        text-align: right;
+        text-align:center;
     }
 }
